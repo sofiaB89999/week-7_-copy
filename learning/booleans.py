@@ -1,3 +1,61 @@
+# video notes
+#comparison:
+#Equal: ==
+#Not Equal: !=
+#Greater Than: >
+#Less Than: <
+#Greater or Equal to: >=
+#Less or Equal to: <=
+#Object Identity: is
+
+# language= "Python"
+#if this value is equal to that
+
+# if language == "Python":
+#     print('language is Python')
+# elif language == "Java":
+#     print('language is Java')
+# elif language == "JavaScript":
+#     print('language is JavaScript')
+# else:
+#     print ("no match")
+
+#you can keep adding elif statements
+
+# and (makes sure both statements are true)
+# or (only one side has to be true)
+# not (if not false)
+
+# user = "admin"
+# logged_in = True
+
+# if not logged_in:
+#     print ("Please log in")
+# else:
+#     print ("Welcome")
+
+#is (while they have the same value, they need considered to be the same object)
+#(one way they can be considered the same object is if they have swapped value)
+# a = [1, 2, 3]
+# b = a
+# print (id(a))
+# print (id(b))
+# print (a is b)
+
+# False Values:
+#     False
+#     None
+#     Zero of any numeric number (zero does actually take space in the value)
+#     Any empty sequence. For example "", (), []
+#     Any empty mapping. For example, {},
+
+# condition = "test"
+
+# if condition:
+#     print ("Evaluated to True")
+# else:
+#     print ("Evaluated to False")
+
 
 ############################################################################
 # Boolean expressions are statements that can be either True or False. In Python, the boolean data type is represented by the built-in data type bool.
@@ -75,8 +133,8 @@
 # x = [1, 2, 3]
 # y = [1, 2, 3]
 # z = x
-# print(x is z)  # True, because z is the same object as x
-# print(x is y)  # False, because x and y are not the same objects
+#  # True, because z is the same object as x
+#  # False, because x and y are not the same objects
 # is not: Returns True if both variables are not the same object.
 
 # x = [1, 2, 3]
